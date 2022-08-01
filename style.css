@@ -1,0 +1,136 @@
+/* Anasayfa */
+.header {
+    color: slategray;
+    font-size: 40px;
+    padding-top: 0px;
+    font-weight: bold;
+    font-family: 'Press Start 2P' cursive;
+    margin-left: 35%;
+}
+
+.nav {
+    padding: 5px 5px 5px 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    line-height: 28px;
+    border: 1px solid #fff;
+    background: #4b5d64;
+    color: #fff;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.nav ul li a:hover{
+    color: black;
+    border: 1px solid #000;
+    background: #d6edc8;
+}
+
+.temizle {
+    clear: both;
+}
+
+.paragraf h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
+.paragraf h2:hover {
+    color: gainsboro;
+}
+.paragraf p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.paragraf p:hover{
+    color: gray;
+}
+
+/* Hakkımızda */
+
+.hakkimizda {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.hakkimizda h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.hakkimizda h2:hover {
+    color: gainsboro;
+}
+.hakkimizda p:hover {
+    color: gray;
+}
+
+/* İletişim */
+.iletisim h2{
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.iletisim h2:hover {
+    color: gainsboro;
+}
+
+.iletisim1 {
+    float: left;
+}
+.iletisim2 {
+    position: relative;
+    float: top;
+    left: 20%;
+    
+}
+
+.iletisim li{
+   list-style-type: none;
+}
+.iletisim li a {
+    text-decoration: none;
+}
+
+/* Ürünlerimiz */
+
+.resim {
+    overflow: hidden;
+}
+
+.resim li {
+    float: left; 
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.resim li img {
+    border: 2px solid #fff;
+}
+.clear {
+    clear: both;
+}
+.resim {
+    position: relative;
+    
+}
+.resim p {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
